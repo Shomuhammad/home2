@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_door"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/text10_ic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Вход"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="Добро пожаловать!"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text12_ic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:text="выполните вход и завершите регистрацию"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/username_ic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/ic_rectangle"
+        android:hint="Введите ваш gmail"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/password_ic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/ic_rectangle"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/enter_ic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/ic_button"
+        android:padding="10dp"
+        android:text="ВОЙТИ"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ключ_ic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="забыли пароль?"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
